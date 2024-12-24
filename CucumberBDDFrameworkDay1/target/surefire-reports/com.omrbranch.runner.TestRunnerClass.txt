@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.omrbranch.runner.TestRunnerClass
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.247 s <<< FAILURE! -- in com.omrbranch.runner.TestRunnerClass
+Verifying OmrBranch Login Module.Verify OmrBranch login with valid credentials -- Time elapsed: 4.941 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User enters userName and passWord' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("User enters userName and passWord")
+public void user_enters_user_name_and_pass_word() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
